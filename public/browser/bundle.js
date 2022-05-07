@@ -1031,27 +1031,7 @@ Board.prototype.toggleTutorialButtons = function() {
 
   let board = this;
   function nextPreviousClick() {
-    if (counter === 1) {
-      document.getElementById("tutorial").innerHTML = `<h3>Welcome to Shortcuts!</h3><h6></h6><p>You can go right in by skipping!</p><div id="tutorialCounter">1/9</div><img id="mainTutorialImage" src="public/styling/c_icon.png"><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
-    } else if (counter === 2) {
-      document.getElementById("tutorial").innerHTML = `<h3>What is a pathfinding algorithm?</h3><h6>. </h6><p>.</p><div id="tutorialCounter">${counter}/9</div><img id="mainTutorialImage" src="public/styling/path.png"><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
-    } else if (counter === 3) {
-      document.getElementById("tutorial").innerHTML = `<h3>Picking an shortcut</h3><h6>Choose an shortcut from the "Algorithms" drop-down menu.</h6><p> <i><b></b></i>, <i><b</b></i>.  </p><img id="secondTutorialImage" src="public/styling/algorithms.png"><div id="tutorialCounter">${counter}/9</div><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
-    } else if (counter === 4) {
-      document.getElementById("tutorial").innerHTML = `<h3></h3><h6>Not all algorithms are created equal.</h6><ul><li><b></li><li><b></b> </li><li><b></li><li><b></b> </li><li><b></b> (weighted): </li><li><b></li><li><b></b></li></ul><div id="tutorialCounter">${counter}/9</div><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
-    } else if (counter === 5) {
-      document.getElementById("tutorial").innerHTML = `<h3></h3><h6>Click on the grid to add a wall. . Generate mazes and patterns from the "Mazes & Patterns" drop-down menu.</h6><p>. .</p><img id="secondTutorialImage" src="public/styling/walls.gif"><div id="tutorialCounter">${counter}/9</div><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
-    } else if (counter === 6) {
-      document.getElementById("tutorial").innerHTML = `<h3>Adding a Stop node</h3><h6>.</h6><p>Adding a visiting node will change the course of the chosen algorithm. In other words, the algorithm will first look for the visiting  node ) and will then look for the target node.The Bidirectional Swarm Algorithm does not support adding a bomb.</p><img id="secondTutorialImage" src="public/styling/bomb.png"><div id="tutorialCounter">${counter}/9</div><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
-    } else if (counter === 7) {
-      document.getElementById("tutorial").innerHTML = `<h3> n</h3><h6>Click and drag the start, bomb, and target nodes to move them.</h6><p> This will allow you to instantly see different paths.</p><div id="tutorialCounter">${counter}/9</div><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
-    } else if (counter === 8) {
-      document.getElementById("tutorial").innerHTML = `<h3></h3><h6>Use the navbar buttons to visualize algorithms </h6><p>.</p><img id="secondTutorialImage" src="public/styling/navbar.png"><div id="tutorialCounter">${counter}/9</div><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
-    } else if (counter === 9) {
-      document.getElementById("tutorial").innerHTML = `<h3></h3><h6></h6><p>sualizer"></a>.</p><div id="tutorialCounter">${counter}/9</div><button id="finishButton" class="btn btn-default navbar-btn" type="button">Finish</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
-      document.getElementById("finishButton").onclick = () => {
-        document.getElementById("tutorial").style.display = "none";
-        board.toggleButtons();
+    
       }
     }
   }
