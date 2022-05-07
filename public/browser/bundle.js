@@ -1031,7 +1031,7 @@ Board.prototype.toggleTutorialButtons = function() {
 
   let board = this;
   function nextPreviousClick() {if (counter === 1) {
-      document.getElementById("tutorial").innerHTML = `<h3>Welcome to Shortcuts!</h3><h6></h6><p>You can go right in by skipping!</p><div id="tutorialCounter">1/9</div><img id="mainTutorialImage" src="public/styling/c_icon.png"><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
+      document.getElementById("tutorial").innerHTML = `<h3>Welcome to Shortcuts!</h3><h6></h6><p>You can go right in by skipping!</p><div id="tutorialCounter">1/9</div><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
     } else if (counter === 2) {
       document.getElementById("tutorial").innerHTML = `<h3>What is a pathfinding algorithm?</h3><h6>. </h6><p>.</p><div id="tutorialCounter">${counter}/9</div><img id="mainTutorialImage" src="public/styling/path.png"><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
     } else if (counter === 3) {
