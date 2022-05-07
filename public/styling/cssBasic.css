@@ -767,7 +767,7 @@
 
 .shortest-path{
   /*border: 1px solid rgb(175, 216, 248);*/
-  background-color: rgb(255, 254, 106);
+  background-color: rgb(255, 254, 0);
   /*background-position: center;
   background-repeat: no-repeat;
   background-size: contain;*/
@@ -783,7 +783,7 @@
 
 .shortest-path.weight{
   /*border: 1px solid rgb(175, 216, 248);*/
-  background-color: rgb(255, 254, 106);
+  background-color: rgb(255, 254, 0);
   background-image: url(weight.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -818,7 +818,7 @@
 .shortest-path-unweighted{
   /*border: 1px solid rgb(175, 216, 248);*/
   background:url(spaceshiptwo-up.svg);
-  background-color: rgb(255, 254, 106);
+  background-color: rgb(255, 254, 0);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain
