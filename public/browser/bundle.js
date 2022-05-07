@@ -1174,7 +1174,7 @@ Board.prototype.toggleButtons = function() {
     }
 
     document.getElementById("startButtonAStar2").onclick = () => {
-      document.getElementById("startButtonStart").innerHTML = '<button id="actualStartButton" class="btn btn-default navbar-btn" type="button">A Shortcut*!</button>'
+      document.getElementById("startButtonStart").innerHTML = '<button id="actualStartButton" class="btn btn-default navbar-btn" type="button">A* Shortcut!</button>'
       this.currentAlgorithm = "astar";
       this.currentHeuristic = "poweredManhattanDistance"
       this.changeStartNodeImages();
