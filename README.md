@@ -1,5 +1,5 @@
 # Shortcuts
 
-Welcome to Shortcuts! You can access it here :https://sameer2195.github.io/#
+Welcome to Shortcuts! https://sameer2195.github.io/#
 
 
