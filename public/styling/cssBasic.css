@@ -30,7 +30,7 @@
 .instantshortest-path-up{
   /*border: 1px solid rgb(175, 216, 248);*/
   background:url(triangletwo-up.svg);
-  background-color: rgb(255, 254, 106);
+  background-color: rgb(255, 254, 0);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -39,7 +39,7 @@
 .shortest-path-up{
   /*border: 1px solid rgb(175, 216, 248);*/
   background:url(triangletwo-up.svg);
-  background-color: rgb(255, 254, 106);
+  background-color: rgb(255, 254, 0);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -56,7 +56,7 @@
 .instantshortest-path-down{
   /*border: 1px solid rgb(175, 216, 248);*/
   background:url(triangletwo-down.svg);
-  background-color: rgb(255, 254, 106);
+  background-color: rgb(255, 254, 0);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -65,7 +65,7 @@
 .shortest-path-down{
   /*border: 1px solid rgb(175, 216, 248);*/
   background:url(triangletwo-down.svg);
-  background-color: rgb(255, 254, 106);
+  background-color: rgb(255, 254, 0);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -82,7 +82,7 @@
 .instantshortest-path-right{
   /*border: 1px solid rgb(175, 216, 248);*/
   background:url(triangletwo-right.svg);
-  background-color: rgb(255, 254, 106);
+  background-color: rgb(255, 254, 0);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -91,7 +91,7 @@
 .shortest-path-right{
   /*border: 1px solid rgb(175, 216, 248);*/
   background:url(triangletwo-right.svg);
-  background-color: rgb(255, 254, 106);
+  background-color: rgb(255, 254, 0);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -108,7 +108,7 @@
 .instantshortest-path-left{
   /*border: 1px solid rgb(175, 216, 248);*/
   background:url(triangletwo-left.svg);
-  background-color: rgb(255, 254, 106);
+  background-color: rgb(255, 254, 0);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -117,7 +117,7 @@
 .shortest-path-left{
   /*border: 1px solid rgb(175, 216, 248);*/
   background:url(triangletwo-left.svg);
-  background-color: rgb(255, 254, 106);
+  background-color: rgb(255, 254, 0);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -135,7 +135,7 @@
   /*border: 1px solid rgb(175, 216, 248);*/
   opacity: 0.5;
   background-image:url(triangletwo-right.svg);
-  background-color: rgb(255, 254, 106);
+  background-color: rgb(255, 254, 0);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -145,7 +145,7 @@
   /*border: 1px solid rgb(175, 216, 248);*/
   opacity: 0.5;
   background-image:url(triangletwo-right.svg);
-  background-color: rgb(255, 254, 106);
+  background-color: rgb(255, 254, 0);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
