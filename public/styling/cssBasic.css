@@ -251,12 +251,12 @@
 
   75% {
     transform: scale(1.2);
-    background-color: rgba(216, 5, 141, 0.75)
+    background-color: rgba(216, 5, 0, 0.75)
   }
 
   100% {
     transform: scale(1.0);
-    background-color: rgba(178, 67, 255, 0.75);
+    background-color: rgba(178, 67, 0, 0.75);
   }
 }
 
@@ -268,17 +268,17 @@
   }
 
   50% {
-    background-color: rgba(17, 104, 217, 0.75);
+    background-color: rgba(17, 104, 0, 0.75);
   }
 
   75% {
     transform: scale(1.2);
-    background-color: rgba(0, 217, 159, 0.75);
+    background-color: rgba(0, 217, 0, 0.75);
   }
 
   100% {
     transform: scale(1.0);
-    background-color: rgba(0, 190, 218, 0.75);
+    background-color: rgba(0, 190, 0, 0.75);
   }
 }
 
