@@ -241,12 +241,12 @@
 @keyframes visitedStartNodePurpleAnimation {
   0% {
     transform: scale(.3);
-    background-color: rgba(41, 4, 24, 0.75);
+    background-color: rgba(41,24, 0, 0.75);
     border-radius: 100%;
   }
 
   50% {
-    background-color: rgba(97, 0, 20, 0.75);
+    background-color: rgba(97, 20, 0, 0.75);
   }
 
   75% {
@@ -263,7 +263,7 @@
 @keyframes visitedStartNodeBlueAnimation {
   0% {
     transform: scale(.3);
-    background-color: rgba(0, 0, 66, 0.75);
+    background-color: rgba(0, 66, 0, 0.75);
     border-radius: 100%;
   }
 
