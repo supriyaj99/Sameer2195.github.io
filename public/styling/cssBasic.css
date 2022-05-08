@@ -5641,7 +5641,7 @@ fieldset[disabled] .navbar-inverse .navbar-form .btn.active {
 .navbar-inverse .navbar-btn.active,
 .open > .dropdown-toggle.navbar-inverse .navbar-btn {
   color: #ffffff;
-  background-color: #48c9b0;
+  background-color: #337ab7;
   border-color: #48c9b0;
 }
 .navbar-inverse .navbar-btn:active,
